@@ -1,0 +1,57 @@
+.chatModal{
+    position: fixed;
+    z-index: 10;
+    width: 2.5%;
+    height: 5vh;
+    border-radius:30px 30px 0px 30px;
+    top: 88%;
+    left: 97%;
+    background-color: #12344d;
+    color: #ffffff;
+    padding: 10px 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.line{
+    height: 2px ;
+    width: 75%;
+    background-color: white;
+}
+.QuickChat{
+    position: fixed;
+    border-radius: 15px 15px 0px 15px;
+    color: white;
+    top: 48%;
+    left: 83%;
+    width: 15%;
+    z-index: 10;
+    height: 40vh;
+    background-color:#12344d81;
+    border: 0.1rem solid white; 
+
+}
+.chatHeader{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 10%;
+   border-bottom: 1px solid #ffffff79 ;
+   /* background-color: white; */
+   color: #12344D;
+   font-size: 1.1rem;
+   font-weight: 200;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 0.5rem auto;
+
+}
+.emailBody{
+
+    width: 100%;
+    height: 70%;
+    /* background-color: white; */
+    /* background-color: beige; */
+}
