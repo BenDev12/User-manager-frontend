@@ -1,0 +1,49 @@
+.signup{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FED6A8;
+    color: #12344D;
+}
+.signupContainer{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.formArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: inherit;
+    /* border: 1px solid blue; */
+    border-left: 0.1rem solid #12344D;
+}
+.imageArea{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid blue; */
+}
+
+.buttonz{
+    font-size: 14px;
+    cursor: pointer;
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    font-weight: 500;
+    /* border: 0.1rem solid white; */
+    color: white;
+    outline: none;
+    background-color:#17494D;
+    /* border-radius: 3px; */
+    /* background-color: white; */
+}

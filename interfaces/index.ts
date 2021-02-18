@@ -8,3 +8,13 @@ export type User = {
   id: number
   name: string
 }
+export type ButtonProps = {
+  children:string
+  className:string
+  onClick ?:string
+}
+export type Admin={
+  id:number
+  name:string
+  role:string
+}

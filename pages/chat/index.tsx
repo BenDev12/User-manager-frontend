@@ -8,10 +8,11 @@ function index() {
         <div>
         {show && <Chat/>}
         <div onClick={()=>setShow(!show)} className={styles.chatModal}>  
-           <div className={styles.line}></div>
-           <div className={styles.line}></div>
-           <div className={styles.line}></div>
-           
+        <div className={styles.innerBox}>
+            <div className={styles.line}></div>
+           <div className={styles.line2}></div>
+        </div>
+            
         </div>
          </div>
     )

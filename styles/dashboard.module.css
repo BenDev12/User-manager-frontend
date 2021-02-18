@@ -1,0 +1,266 @@
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    display: flexbox;
+    flex-direction: row;
+}
+.dashboardNav{
+    /* margin: 0 auto; */
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.582);
+    justify-content: center;
+}
+.navigation{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navItems{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.navigationItem{
+    font-size: 16px;
+    width: auto;
+    height: 100%;
+    /* align-items: center; */
+    padding: 10px 1.2rem;
+    /* border: 1px solid green; */
+
+    /* background-color: white; */
+}
+.navigationItem:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(39, 39, 39);
+}
+.filterContainer{
+    width: 100%;
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #e6e4e4f6;
+
+
+}
+.filterSection{
+    margin: 0 auto;
+    width: 95%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid green; */
+    /* justify-content: center; */
+}
+.filterNav{
+    /* border: 1px solid green; */
+
+    padding: 0px 15px;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.filterButton{
+    height: 70%;
+    width: 4rem;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #eff2f5f6;
+}
+.userGuide{
+    padding-left: 10px;
+    font-size: 13px;
+    width: 45%;
+    font-weight: 500;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    color: #3579d1;
+}
+.dashboardContainer{
+    width: 100%;
+    min-height:80vh ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(41, 40, 40, 0.856);
+    justify-content: space-around;
+    /* background-color: white; */
+    /* border: 1px solid green; */
+}
+.analytics{
+    /* margin:  0.5rem auto; */
+    width: 93.5%;
+    height: 15vh;
+    display: grid;
+    grid-gap: 0px 1rem;
+      grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: white; */
+}
+.analyticsContainer{
+    /* padding: 0px 5px; */
+     background-color: #ffffffda;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 1px 2px   #e4e4e4d0;
+    /* border: 1px solid green; */
+}
+.containerHead{
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid rgba(233, 232, 232, 0.897);
+}
+.selectionArea{
+    color: rgba(41, 40, 40, 0.856);
+    border-radius: 5px;
+    font-weight: 200;
+    height: 80%;
+    width: 20%;
+    outline: none;
+    border: 1px solid rgba(204, 204, 204, 0.897);
+}
+.containerBody{
+    width: 100%;
+    height: 75%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .analyticsContainer>div{
+    display: grid;
+    height: 95%;
+    grid-template-columns: repeat(3, 1fr);
+    border-left: 1px dotted #ccc;
+} */
+.projectData{
+    /* margin-top: 1rem; */
+    width: 93.5%;
+    height: 28vh;
+    /* background-color: white; */
+    color: rgb(141, 140, 140);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.customerSatisfaction{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 32.5%;
+    height: inherit;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 2px   #e4e4e4d0;
+    padding: 15px;
+
+}
+.incomingProjects{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 66.5%;
+    height: inherit;
+    background-color: #ffffffda;
+    border-radius: 5px;
+    box-shadow: 1px 2px   #e4e4e4d0;
+    padding: 15px;
+}
+.heading{
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    float: left;
+    /* border: 1px solid red; */
+    height: 20%; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     /* padding: 0 10px; */
+}
+.subHeading{
+    padding: 0;
+    font-size: 14px;
+    font-weight: 200;
+}
+.weekely{
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+    width: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+.chartArea{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.reccommedationArea{
+    /* margin-top: 1rem; */
+    width: 93.5%;
+    height: 30vh;
+    /* background-color: white; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+    grid-gap: 0px 1rem;
+
+    /* justify-content: space-between; */
+}
+
+.reccomendation{
+    height: inherit;
+    background-color: #ffffffda;
+    border-radius: 5px;
+    box-shadow: 1px 2px   #e4e4e4d0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
