@@ -4,7 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FED6A8;
+    background-color:rgb(254,214,168);
+    background-image: linear-gradient(to bottom, rgba(254,214,168,0.7), rgba(250, 250, 250, 0.75));
     color: #12344D;
 }
 .signupContainer{
@@ -23,6 +24,41 @@
     height: inherit;
     /* border: 1px solid blue; */
     border-left: 0.1rem solid #12344D;
+}
+.loginForm{
+    width: 80%;
+    height: inherit;
+    /* border: #12344D 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.emailLogin{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid rgb(206, 182, 182); */
+}
+.rememberSection{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 90%;
+    height: 10%;
+    font-size: 14px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.socialAuths{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .imageArea{
      display: flex;

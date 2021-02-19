@@ -55,7 +55,7 @@ function index() {
          </div>
      
       <div className={styles.rightSection}>
-
+        {/* <img src='../public/static/icons/undraw_project_completed_w0oq.png' /> */}
         </div>
        </div>
    </div>
