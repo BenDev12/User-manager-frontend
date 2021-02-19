@@ -1,0 +1,13 @@
+.input{
+    height: 2.5rem;
+    width: 75%;
+    border-radius: 0px;
+    border: 0.1rem solid #17494D;
+    /* outline: 1px solid; */
+    color: #ccc;
+}
+.input:focus{
+    background-color: aliceblue;
+    outline: 0.1rem solid #17494D;
+
+}
