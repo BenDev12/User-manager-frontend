@@ -51,7 +51,7 @@ function index() {
          <div className={styles.projectData}>
             <div className={styles.customerSatisfaction}>
                 <div className={styles.heading}>Project Completion
-                <div className={styles.subHeading}>Avarage completion status against set time</div>
+                <div className={styles.subHeading}>Avarage completion rates against set time</div>
                 </div>
             </div>
             <div className={styles.incomingProjects}>
