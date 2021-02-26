@@ -10,7 +10,7 @@ function footer() {
       u r m {' '}
       {/* </Link>{' '} */}
       {new Date().getFullYear()}
-      {'.'}
+      {/* {'.'} */}
       </p>
     </footer>
     )

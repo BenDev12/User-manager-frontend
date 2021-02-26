@@ -42,7 +42,7 @@ function index() {
          <div className={styles.leftSection}>
            <h1>
              Manage all your projects and users on one Platform.
-             over 70+ tools and resources will enable you get 
+             over 10+ tools and resources will enable you get 
              your projects done with less Hustle
            </h1>
            <p>Achieve your weekely targets, stay intouch with your team and get timely updates 
