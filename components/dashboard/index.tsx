@@ -3,23 +3,27 @@ import styles from '../../styles/dashboard.module.css'
 import Layout from '../Layout'
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faBook, faFilter } from '@fortawesome/free-solid-svg-icons'
+import {   faBook, faFilter, faTh } from '@fortawesome/free-solid-svg-icons'
+import ToolsModal from '../modal/tools'
 
 
 function index(props: { children: React.ReactNode }) {
+    
     <Head>
       <title>Dashboard</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
+    const [show, setShow]= React.useState(false)
     return (
         <Layout>
+            {show && <ToolsModal />}
         <div className={styles.mainContainer}>
             <div className={styles.dashboardNav}>
                 <div className={styles.navigation}>
                     <div className={styles.navItems}>
-                <div className={styles.navigationItem}>Tools</div>
-                <div className={styles.navigationItem}>Boards</div>
+                <div onClick={()=>setShow(!show)} className={styles.navigationItem}> <span><FontAwesomeIcon icon={faTh} /></span>{"  "}Tools</div>
+                {/* <div className={styles.navigationItem}>Boards</div> */}
                     </div>
                 
                 </div>

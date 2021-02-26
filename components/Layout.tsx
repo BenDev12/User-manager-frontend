@@ -7,7 +7,8 @@ import Navigation from './navigation'
 import Chat from '../pages/chat/index'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {     faClipboardList, faCogs, faHome, faInbox,  faRobot,   faSatellite,   faTasks,   faUserAlt, } from '@fortawesome/free-solid-svg-icons'
+import {     faBullhorn, faClipboardList, faCogs, faHome, faInbox,  faPlug,  faPoll,  faPollH,     faSatellite,   faTasks,   faUserAlt, faVrCardboard, } from '@fortawesome/free-solid-svg-icons'
+// import { faUsb } from '@fortawesome/free-brands-svg-icons'
 // import {   } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -32,19 +33,28 @@ const Layout = ({ children, pageName, title = 'The User repo manager' }: Props) 
         <Link href={'/dashboard'} ><a><FontAwesomeIcon icon={faHome} /></a></Link>
       </div>
        <div className={styles.navItem}>
-        <Link href={'/Inbox'} ><a><FontAwesomeIcon icon={faInbox} /></a></Link>
+        <Link href={'/Inbox'} ><a><FontAwesomeIcon icon={faBullhorn} /></a></Link>
+      </div>
+       <div className={styles.navItem}>
+        <Link href={'/projects'} ><a><FontAwesomeIcon icon={faInbox} /></a></Link>
       </div>
        <div className={styles.navItem}>
         <Link href={'/projects'} ><a><FontAwesomeIcon icon={faClipboardList} /></a></Link>
+      </div>
+      <div className={styles.navItem}>
+        <Link href={'/projects'} ><a><FontAwesomeIcon icon={faVrCardboard} /></a></Link>
       </div>
        <div className={styles.navItem}>
         <Link href={'/team'} ><a><FontAwesomeIcon icon={faUserAlt} /></a></Link>
       </div>
        <div className={styles.navItem}>
+        <Link href={'/reports'} ><a><FontAwesomeIcon icon={faPoll} /></a></Link>
+      </div>
+       <div className={styles.navItem}>
         <Link href={'/reports'} ><a><FontAwesomeIcon icon={faTasks} /></a></Link>
       </div>
       <div className={styles.navItem}>
-        <Link href={'/reports'} ><a><FontAwesomeIcon icon={faRobot} /></a></Link>
+        <Link href={'/reports'} ><a><FontAwesomeIcon icon={faPollH} /></a></Link>
       </div>
       <div className={styles.navItem}>
         <Link href={'/reports'} ><a><FontAwesomeIcon icon={faSatellite} /></a></Link>
@@ -52,6 +62,10 @@ const Layout = ({ children, pageName, title = 'The User repo manager' }: Props) 
        <div className={styles.navItem}>
         <Link href={'/settings'} ><a><FontAwesomeIcon icon={faCogs} /></a></Link>
       </div>
+       <div className={styles.navItem}>
+        <Link href={'/settings'} ><a><FontAwesomeIcon icon={faPlug} /></a></Link>
+      </div>
+
       </div>
       <div className={styles.bubbles}>
         <div className={styles.dots}></div>

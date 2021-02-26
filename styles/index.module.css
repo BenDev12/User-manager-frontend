@@ -134,8 +134,11 @@
 }
 @media (min-width: 700px) {
     .notificationArea{
-        width: 18%;
+        width: 15%;
         /* border: 1px solid red; */
+    }
+    .notificationArea>div{
+        width: 15%;
     }
     .sideNav{
         width: 4%;

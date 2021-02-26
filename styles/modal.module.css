@@ -17,7 +17,7 @@
     /* border-radius: 10px; */
 }
 .profileModal{
-    padding: 10px 5px;
+    padding: 2px 5px;
     position: fixed;
     z-index: 20;
     width: 7%;
@@ -26,13 +26,88 @@
     height: 17vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px #ccc;
     border: 1px solid #ccc;
     border-radius: 3px;
     
+}
+.toolModal{
+    padding:  5px;
+    position: fixed;
+    z-index: 20;
+    width: 12%;
+    top: 9.5%;
+    left: 4%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px #ccc;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.toolsPallet{
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 1px solid green; */
+}
+.toolCards{
+/* padding: 10px 0px; */
+    width: 100%;
+    display: flex;
+    min-height: 8%;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+    /* background-color: green; */
+    /* border: 1px solid rgb(128, 47, 0); */
+
+}
+.toolcardHeading{
+    font-size: 14px;
+    font-weight: 700;
+    /* color: green; */
+    /* border: 1px solid green; */
+}
+.toolcardBody{
+    width: 100%;
+    min-height: 50%;
+    height: auto;
+    font-size: 16px;
+    font-weight: 200;
+    /* background-color: black; */
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.toolItems{
+    color: #5e5e5e;
+    width: 100%;
+    font-size: 14px;
+    height: auto;
+    padding: 6px 2px;
+   font-weight: 400;
+    flex-direction: row;
+    justify-content: space-between;
+     /* border: 1px solid green; */
+     cursor: pointer;
+}
+.toolItems:hover{
+    cursor: pointer;
+    font-weight: 600;
+    color: black;
 }
 .profileModal>div{
     color: #223d50f6;
